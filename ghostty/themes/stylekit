@@ -1,0 +1,42 @@
+# TBFox Dark Theme - Code Inspired
+
+# Main colors (using Code Dark theme backgrounds and vibrant syntax colors)
+background = #0f172a
+foreground = #eceff4
+cursor-color = #2dd4bf
+cursor-text = #242933
+selection-background = #164e63
+selection-foreground = #5eead4
+
+# Color palette (0-15) - vibrant syntax colors
+# Black (dark backgrounds)
+palette = 0=#242933
+palette = 8=#2e3440
+
+# Red (danger/error colors)
+palette = 1=#f87171
+palette = 9=#fb7185
+
+# Green (success colors)
+palette = 2=#34d399
+palette = 10=#5eead4
+
+# Yellow (warning/string colors)
+palette = 3=#fbbf24
+palette = 11=#fcd34d
+
+# Blue (info/variable colors)
+palette = 4=#60a5fa
+palette = 12=#7dd3fc
+
+# Magenta (orange family - numbers/constants)
+palette = 5=#ffa726
+palette = 13=#f59e0b
+
+# Cyan (teal family - functions/types)
+palette = 6=#2dd4bf
+palette = 14=#22d3ee
+
+# White (text colors)
+palette = 7=#d8dee9
+palette = 15=#eceff4 

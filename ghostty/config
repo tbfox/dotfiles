@@ -1,1 +1,3 @@
-theme = stylekit 
+theme = GruvboxDarkHard 
+font-feature = "-liga, -dlig, -calt"
+

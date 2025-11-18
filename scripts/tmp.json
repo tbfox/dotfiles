@@ -1,0 +1,588 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "id": "Rec09R4JT2LEP",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762460900,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"cojHl\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Otel research\"}]}]}]",
+          "text": "Otel research",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "cojHl",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Otel research",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptX3HPOR94",
+          "select": [
+            "OptX3HPOR94"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "Col09QWJBBQ0K",
+          "value": null,
+          "text": "",
+          "rich_text": [],
+          "column_id": "Col09R30US23C"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762462336"
+    },
+    {
+      "id": "Rec09R35X0D6E",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762386096,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "Opt7O294YYE",
+          "select": [
+            "Opt7O294YYE"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"U4kTC\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Fix Time Track tree-sitter decimal numbers\"}]}]}]",
+          "text": "Fix Time Track tree-sitter decimal numbers",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "U4kTC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Fix Time Track tree-sitter decimal numbers",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptX3HPOR94",
+          "select": [
+            "OptX3HPOR94"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762386129"
+    },
+    {
+      "id": "Rec09R6MCUWAG",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762385666,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "Opt7O294YYE",
+          "select": [
+            "Opt7O294YYE"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"EgfuC\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Spike Scriptable Slack Api Integrations\"}]}]}]",
+          "text": "Spike Scriptable Slack Api Integrations",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "EgfuC",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Spike Scriptable Slack Api Integrations",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "Opt4VHLFRL2",
+          "select": [
+            "Opt4VHLFRL2"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762531093"
+    },
+    {
+      "id": "Rec09QMK4KWTZ",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762384908,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "OptXDLY4RCU",
+          "select": [
+            "OptXDLY4RCU"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"VgI\\/8\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Blog Article: Communication Throttles Software Development\"}]}]}]",
+          "text": "Blog Article: Communication Throttles Software Development",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "VgI/8",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Blog Article: Communication Throttles Software Development",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptX3HPOR94",
+          "select": [
+            "OptX3HPOR94"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762385291"
+    },
+    {
+      "id": "Rec09RXC0UKQQ",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762384862,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "Opt7O294YYE",
+          "select": [
+            "Opt7O294YYE"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"zdoY6\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Create Daily Digest Cron Job\"}]}]}]",
+          "text": "Create Daily Digest Cron Job",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "zdoY6",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Create Daily Digest Cron Job",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptX3HPOR94",
+          "select": [
+            "OptX3HPOR94"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762385288"
+    },
+    {
+      "id": "Rec09R11KUX7Y",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762384828,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "Opt7O294YYE",
+          "select": [
+            "Opt7O294YYE"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"wbMsm\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Add Emoji's to slack\"}]}]}]",
+          "text": "Add Emoji's to slack",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "wbMsm",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Add Emoji's to slack",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptX3HPOR94",
+          "select": [
+            "OptX3HPOR94"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762386639"
+    },
+    {
+      "id": "Rec09R6JKNS9J",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762384475,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "OptXDLY4RCU",
+          "select": [
+            "OptXDLY4RCU"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"ZDiGa\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Spike out better Open Practices DX\"}]}]}]",
+          "text": "Spike out better Open Practices DX",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "ZDiGa",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Spike out better Open Practices DX",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptX3HPOR94",
+          "select": [
+            "OptX3HPOR94"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762444000"
+    },
+    {
+      "id": "Rec09R6JG4WE8",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762384429,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "OptXDLY4RCU",
+          "select": [
+            "OptXDLY4RCU"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"ESaiK\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Spike out better Open Practices UX for non devs\"}]}]}]",
+          "text": "Spike out better Open Practices UX for non devs",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "ESaiK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Spike out better Open Practices UX for non devs",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptQFBOO2JV",
+          "select": [
+            "OptQFBOO2JV"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762530813"
+    },
+    {
+      "id": "Rec09QMHVKHM5",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762384376,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "Col09QZL16TQD",
+          "value": "OptXDLY4RCU",
+          "select": [
+            "OptXDLY4RCU"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"k22vK\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Finish Time Tracking Script\"}]}]}]",
+          "text": "Finish Time Tracking Script",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "k22vK",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Finish Time Tracking Script",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptPXGQL3U8",
+          "select": [
+            "OptPXGQL3U8"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762443955"
+    },
+    {
+      "id": "Rec09R0U8G4A2",
+      "list_id": "F09R6GGJ2P6",
+      "date_created": 1762383679,
+      "created_by": "U02NXCZUE1G",
+      "updated_by": "U02NXCZUE1G",
+      "fields": [
+        {
+          "key": "todo_assignee",
+          "value": "U02NXCZUE1G",
+          "user": [
+            "U02NXCZUE1G"
+          ],
+          "column_id": "Col01"
+        },
+        {
+          "key": "Col09QZL16TQD",
+          "value": "OptXDLY4RCU",
+          "select": [
+            "OptXDLY4RCU"
+          ],
+          "column_id": "Col09QWMGDZSP"
+        },
+        {
+          "key": "name",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"CAZWW\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Open Practices: Communication Attributes\"}]}]}]",
+          "text": "Open Practices: Communication Attributes",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "CAZWW",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Open Practices: Communication Attributes",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R0U2LCH4"
+        },
+        {
+          "key": "Col09RXAHFSQ0",
+          "value": "OptQFBOO2JV",
+          "select": [
+            "OptQFBOO2JV"
+          ],
+          "column_id": "Col09R105GGLW"
+        },
+        {
+          "key": "Col09QWJBBQ0K",
+          "value": "[{\"type\":\"rich_text\",\"block_id\":\"E7Xzi\",\"elements\":[{\"type\":\"rich_text_section\",\"elements\":[{\"type\":\"text\",\"text\":\"Add Communication Attributes to the Open Practices repo\"}]}]}]",
+          "text": "Add Communication Attributes to the Open Practices repo",
+          "rich_text": [
+            {
+              "type": "rich_text",
+              "block_id": "E7Xzi",
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "text": "Add Communication Attributes to the Open Practices repo",
+                      "type": "text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "column_id": "Col09R30US23C"
+        },
+        {
+          "key": "todo_completed",
+          "value": false,
+          "checkbox": false,
+          "column_id": "Col00"
+        }
+      ],
+      "updated_timestamp": "1762443953"
+    }
+  ],
+  "response_metadata": {
+    "next_cursor": ""
+  }
+}

@@ -19,3 +19,4 @@ source ~/.config/shell/alias.sh
 
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/gruvbox.omp.json)"
 eval "$(zoxide init zsh)"
+source <(fzf --zsh)

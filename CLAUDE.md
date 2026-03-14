@@ -30,3 +30,24 @@ The repo is organized into per-tool directories. Each directory maps directly to
 - **Pane navigation**: `Ctrl+hjkl` shared between tmux and neovim via `nvim-navigator.tmux`
 - **Scripts**: Utility scripts use Nushell (`.nu`) rather than bash
 - **Private config**: `shell/.env` and `shell/.private.env` are sourced at shell startup but not committed
+
+## tmux-gruvbox Plugin Notes
+
+The gruvbox plugin is forked at `/Users/tristanbarrow/Projects/tmux-gruvbox` and symlinked into `~/.tmux/plugins/tmux-gruvbox`. The plugin is re-run after TPM in `tmux.conf` to ensure overrides apply correctly:
+
+```
+run '~/.tmux/plugins/tpm/tpm'
+run '~/.tmux/plugins/tmux-gruvbox/gruvbox-tpm.tmux'
+```
+
+**Powerline arrows** — The `\ue0b0` (right-pointing) and `\ue0b2` (left-pointing) glyphs must be embedded as raw Unicode in `theme_gruvbox_dark.sh`. If arrows disappear after editing the theme, they were likely lost during a string replacement. They appear in:
+- `status-left` — trailing `\ue0b0` after the session name block
+- `window-status-format` / `window-status-current-format` — leading `\ue0b0` and trailing `\ue0b0` on each tab
+- `status-right` loop — `\ue0b2` before each slot block
+
+**Right status slots** — The plugin supports 8 configurable slots (`a`–`h`, left to right) set in `tmux.conf`:
+```
+set -g @tmux-gruvbox-right-status-a 'content'
+set -g @tmux-gruvbox-right-color-a 'col_bg3'  # any palette variable name
+```
+Empty slots are skipped automatically. Color values are palette variable names from `palette_gruvbox_dark.sh` (e.g. `col_bg2`, `col_bg3`, `col_orange2`).

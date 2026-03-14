@@ -10,6 +10,15 @@ load_env() {
     source "$1"
 }
 
+function inturupting_cow() {
+    trap '' SIGINT
+    fortune | cowsay | lolcat -a
+    trap - SIGINT
+}
+
+alias vim.=inturupting_cow
+
+
 export EDITOR=nvim
 
 load_env ~/.env

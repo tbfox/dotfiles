@@ -10,5 +10,11 @@ function load_env() {
     source "$1"
 }
 
+function inturupting_cow() {
+    trap '' SIGINT
+    fortune | cowsay | lolcat -a
+    trap - SIGINT
+}
+
 function sc() { nvim -c "Sc go $1 $2"; }
 

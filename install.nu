@@ -1,5 +1,5 @@
 let packages = [
-    oh-my-posh
+    jandedobbeleer/oh-my-posh/oh-my-posh
     zoxide
     fzf
     neovim

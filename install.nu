@@ -53,7 +53,7 @@ if not ($plugin_dest | path exists) {
 print "Linking dotfiles..."
 [tmux shell ohmyposh ghostty]
 | each {|linkable|
-    let from = $'($env.HOME)/dotfiles/($linkable)'
+    let from = $'($env.PWD)/($linkable)'
     let to = $'($env.HOME)/.config/($linkable)'
     if ($to | path exists) {
         print $"Already exists: ($to)"

@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is a dotfiles repository. To apply the configuration, run the linking script with Nushell:
 
 ```sh
-nu link.nu
+nu install.nu
 ```
 
 This creates symlinks from `~/dotfiles/<tool>` to `~/.config/<tool>` for: `tmux`, `shell`, `ohmyposh`, and `ghostty`.

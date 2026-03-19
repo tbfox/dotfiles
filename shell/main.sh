@@ -12,7 +12,9 @@ if command -v zoxide &>/dev/null; then
 elif [ -f "$HOMEBREW_PREFIX/etc/profile.d/z.sh" ]; then
     . "$HOMEBREW_PREFIX/etc/profile.d/z.sh"
 fi
-source <(fzf --${SHELL##*/})
+if command -v fzf &>/dev/null; then
+    source <(fzf --${SHELL##*/})
+fi
 
 autoload -U edit-command-line
 # Emacs style

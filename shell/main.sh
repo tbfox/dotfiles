@@ -1,36 +1,18 @@
-load_env() {
-    if [ -z "$1" ]; then
-        return 1
-    fi
-    
-    if [ ! -f "$1" ]; then
-        return 1
-    fi
-    
-    source "$1"
-}
-
-function inturupting_cow() {
-    trap '' SIGINT
-    fortune | cowsay | lolcat -a
-    trap - SIGINT
-}
-
-alias vim.=inturupting_cow
-
-
-export EDITOR=nvim
-
-load_env ~/.env
-load_env ~/.private.env
-load_env ~/.config/shell/env
-
+source ~/.config/shell/fn.sh
 source ~/.config/shell/path.sh
 source ~/.config/shell/alias.sh
 
+load_env ~/.env
+load_env ~/.private.env
+load_env ~/.config/shell/.env
+
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/gruvbox.omp.json)"
-eval "$(zoxide init zsh)"
-source <(fzf --zsh)
+if command -v zoxide &>/dev/null; then
+    eval "$(zoxide init zsh)"
+elif [ -f "$HOMEBREW_PREFIX/etc/profile.d/z.sh" ]; then
+    . "$HOMEBREW_PREFIX/etc/profile.d/z.sh"
+fi
+source <(fzf --${SHELL##*/})
 
 autoload -U edit-command-line
 # Emacs style

@@ -1,8 +1,6 @@
 alias ll='ls -l'
+alias la='ls -la'
 alias vim='nvim'
+alias rc='source ~/.${SHELL##*/}rc'
 
-if [ "$MACHINE" = "pragmint" ]; then
-fi
-
-
-
+alias vim.=inturupting_cow

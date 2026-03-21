@@ -18,3 +18,5 @@ function inturupting_cow() {
 
 function sc() { nvim -c "Sc go $1 $2"; }
 
+function clone() { git clone "https://github.com/$1/$2.git"; }
+

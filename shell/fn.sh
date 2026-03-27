@@ -2,11 +2,11 @@ function load_env() {
     if [ -z "$1" ]; then
         return 1
     fi
-    
+
     if [ ! -f "$1" ]; then
         return 1
     fi
-    
+
     source "$1"
 }
 
@@ -39,3 +39,13 @@ function open-gh() {
     open "$browser_url"
 }
 
+# Open all git-changed files (staged, unstaged, untracked) in nvim
+edit-changes() {
+    local files
+    files=$(git diff --name-only && git diff --name-only --cached && git ls-files --others --exclude-standard)
+    if [ -z "$files" ]; then
+        echo "No changed files."
+        return 0
+    fi
+    nvim $(echo "$files" | tr '\n' ' ')
+}

@@ -49,6 +49,31 @@ if not ($plugin_dest | path exists) {
     ^git clone https://github.com/zsh-users/zsh-history-substring-search $plugin_dest
 }
 
+# tmux plugin manager + gruvbox fork
+mkdir ($env.HOME | path join "Projects")
+mkdir ($env.HOME | path join ".tmux/plugins")
+
+let tpm_dest = ($env.HOME | path join ".tmux/plugins/tpm")
+if not ($tpm_dest | path exists) {
+    print "Cloning tmux plugin manager (tpm)..."
+    ^git clone https://github.com/tmux-plugins/tpm $tpm_dest
+}
+
+let gruvbox_src = ($env.HOME | path join "Projects/tmux-gruvbox")
+if not ($gruvbox_src | path exists) {
+    print "Cloning tmux-gruvbox fork..."
+    ^git clone https://github.com/tbfox/tmux-gruvbox $gruvbox_src
+}
+
+let gruvbox_link = ($env.HOME | path join ".tmux/plugins/tmux-gruvbox")
+if not ($gruvbox_link | path exists) {
+    ln -s $gruvbox_src $gruvbox_link
+    print "Linked tmux-gruvbox plugin"
+}
+
+print "Installing tmux plugins..."
+^($tpm_dest | path join "bin/install_plugins")
+
 # Symlinks
 print "Linking dotfiles..."
 [tmux shell ohmyposh ghostty]

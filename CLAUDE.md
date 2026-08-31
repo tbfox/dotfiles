@@ -33,7 +33,7 @@ The repo is organized into per-tool directories. Each directory maps directly to
 
 ## tmux-gruvbox Plugin Notes
 
-The gruvbox plugin is forked at `/Users/tristanbarrow/Projects/tmux-gruvbox` and symlinked into `~/.tmux/plugins/tmux-gruvbox`. The plugin is re-run after TPM in `tmux.conf` to ensure overrides apply correctly:
+The gruvbox plugin is forked at `~/Projects/tmux-gruvbox` (github.com/tbfox/tmux-gruvbox) and symlinked into `~/.tmux/plugins/tmux-gruvbox`. `install.nu` clones both TPM and this fork and creates the symlink automatically. The plugin is re-run after TPM in `tmux.conf` to ensure overrides apply correctly:
 
 ```
 run '~/.tmux/plugins/tpm/tpm'

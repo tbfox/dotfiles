@@ -20,6 +20,16 @@ function sc() { nvim -c "Sc go $1 $2"; }
 
 function clone() { git clone "https://github.com/$1/$2.git"; }
 
+function killp() {
+    local pid
+    pid=$(lsof -ti :"$1")
+    if [[ -z "$pid" ]]; then
+        echo "No process found on port $1"
+        return 1
+    fi
+    kill -9 "$pid"
+}
+
 function open-gh() {
     local remote_url
     remote_url=$(git remote get-url origin 2>/dev/null)

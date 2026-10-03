@@ -15,7 +15,7 @@ elif [ -f "$HOMEBREW_PREFIX/etc/profile.d/z.sh" ]; then
     . "$HOMEBREW_PREFIX/etc/profile.d/z.sh"
 fi
 if command -v fzf &>/dev/null; then
-    source <(fzf --${SHELL##*/})
+    source <(fzf --zsh)
 fi
 
 HSS_PLUGIN=~/.config/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh

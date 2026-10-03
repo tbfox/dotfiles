@@ -46,7 +46,11 @@ function open-gh() {
         echo "error: remote is not a GitHub URL: $remote_url"
         return 1
     fi
-    open "$browser_url"
+    if command -v xdg-open &>/dev/null; then
+        xdg-open "$browser_url"
+    else
+        open "$browser_url"
+    fi
 }
 
 # Open all git-changed files (staged, unstaged, untracked) in nvim

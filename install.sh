@@ -28,9 +28,12 @@ elif [[ "$OS" == "Linux" ]]; then
             curl -fsSL https://raw.githubusercontent.com/rupa/z/master/z.sh -o "$Z_DEST"
         fi
     elif command -v pacman &>/dev/null; then
-        sudo pacman -Sy --noconfirm fzf fortune-mod cowsay zoxide neovim
-        # oh-my-posh and lolcat via AUR or manual
-        echo "Install oh-my-posh and lolcat manually or via AUR"
+        sudo pacman -S --needed --noconfirm zsh tmux fzf fortune-mod cowsay lolcat zoxide neovim lsof wl-clipboard
+        if command -v yay &>/dev/null; then
+            yay -S --needed --noconfirm oh-my-posh-bin
+        else
+            echo "yay not found — install oh-my-posh-bin from the AUR manually"
+        fi
     else
         echo "Unsupported package manager. Install packages manually."
         exit 1
@@ -65,5 +68,34 @@ for linkable in tmux shell ohmyposh ghostty pi; do
         echo "Linked $linkable -> $to"
     fi
 done
+
+# tmux plugins: TPM + gruvbox fork (symlinked from ~/Projects so it can be edited)
+TPM_DEST="$HOME/.tmux/plugins/tpm"
+if [[ ! -d "$TPM_DEST" ]]; then
+    git clone https://github.com/tmux-plugins/tpm "$TPM_DEST"
+fi
+GRUVBOX_SRC="$HOME/Projects/tmux-gruvbox"
+if [[ ! -d "$GRUVBOX_SRC" ]]; then
+    git clone https://github.com/tbfox/tmux-gruvbox "$GRUVBOX_SRC"
+fi
+GRUVBOX_DEST="$HOME/.tmux/plugins/tmux-gruvbox"
+if [[ ! -e "$GRUVBOX_DEST" ]]; then
+    ln -s "$GRUVBOX_SRC" "$GRUVBOX_DEST"
+fi
+
+# zsh entry points
+if [[ ! -e "$HOME/.zprofile" ]]; then
+    echo 'source ~/.config/shell/zprofile' > "$HOME/.zprofile"
+    echo "Created ~/.zprofile"
+fi
+if [[ ! -e "$HOME/.zshrc" ]]; then
+    echo 'source ~/.config/shell/main.sh' > "$HOME/.zshrc"
+    echo "Created ~/.zshrc"
+fi
+ZSH_PATH="$(command -v zsh || true)"
+if [[ -n "$ZSH_PATH" && "${SHELL:-}" != "$ZSH_PATH" ]]; then
+    echo "Changing login shell to $ZSH_PATH..."
+    chsh -s "$ZSH_PATH"
+fi
 
 echo "Done."
